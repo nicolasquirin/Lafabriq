@@ -1,0 +1,199 @@
+body {
+  width: 100%;
+  margin-left: 0px;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.medias a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+}
+.medias a:hover {
+  text-decoration: underline;
+  color: #00edf9;
+}
+
+.section1 {
+  background: linear-gradient(white, #4fd6d6);
+  background-size: 100%;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#header {
+  height: 70px;
+  border-bottom: 1px solid darkgray;
+}
+
+h1 {
+  font-family: open sans;
+  color: #00edf9;
+  font-size: 35px;
+  text-transform: capitalize;
+  float: left;
+  margin-left: 1%;
+}
+.medias {
+  list-style-type: none;
+  position: absolute;
+  right: 115px;
+  top: 1.5%;
+  transform: translateX(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bulle {
+  width: 50px;
+  height: 10px;
+  border-spacing: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 30px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.bulle:hover {
+  color: darkgray;
+}
+
+h2 {
+  width: 100%;
+  height: 250px;
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #00edf9;
+}
+
+.section2 {
+  width: 100%;
+  height: auto;
+}
+
+#container {
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 85%;
+  height: auto;
+  box-shadow: 5px 5px 15px darkgray;
+}
+.img1 {
+  border-radius: 5%;
+  width: 300px;
+  height: 50%;
+  margin: 1.5%;
+  box-shadow: 10px 10px 15px darkgray;
+}
+.divText1 {
+  float: right;
+  width: 45%;
+  height: 100%;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-size: larger;
+  text-shadow: 1px 1px 1px #00edf9;
+}
+.img2 {
+  border-radius: 5%;
+  width: 350px;
+  height: 90%;
+  margin: 1.5%;
+  box-shadow: 10px 10px 15px darkgray;
+}
+.divText2 {
+  float: left;
+  width: 45%;
+  height: 100%;
+  margin-top: 7%;
+  margin-left: 5%;
+  font-size: larger;
+  text-shadow: 1px 1px 1px #00edf9;
+}
+.img3 {
+  margin-left: -55px;
+  border-radius: 5%;
+  width: 300px;
+  height: 50%;
+  margin: 25px;
+  box-shadow: 10px 10px 15px darkgray;
+}
+.divText3 {
+  float: right;
+  width: 45%;
+  height: 100%;
+  margin-top: 7%;
+  margin-left: 5%;
+  font-size: larger;
+  text-shadow: 1px 1px 1px #00edf9;
+  margin-right: 5%;
+}
+.retour {
+  margin-top: 55px;
+}
+.retour button {
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: aliceblue;
+}
+.retour a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #ccc;
+  width: auto;
+  height: 70px;
+  font-size: 20px;
+  padding: 40px;
+}
+footer p {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+/* --780px--*/
+
+@media screen and (max-width: 780px) {
+}
+
+/* --  CREATION PAGE  --*/
+
+.sectionCreation {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 555px;
+}
+.creation1 img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
+.creation2 img {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
